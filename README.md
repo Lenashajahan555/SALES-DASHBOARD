@@ -8,7 +8,8 @@ An end-to-end sales analytics project built in **Microsoft Fabric**. Raw sales d
 
 ## Dashboard preview
 
-![Sales Analytics Dashboard](images/fabric powerbi project.JPG)
+<img width="1366" height="545" alt="image" src="https://github.com/user-attachments/assets/f7296f35-780b-41c5-b14e-c49ca0aaa48b" />
+
 
 ---
 
@@ -55,7 +56,8 @@ The pipeline `Pl_ingest_sales` runs five steps in order:
 | 4 | `BuildGoldLayer` | Notebook | Builds the summary tables (Gold) |
 | 5 | `Transformsilvertowarehouse` | Copy data | Loads the data into the warehouse |
 
-![Fabric pipeline](images/03-pipeline.jpg)
+<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/d20b738b-ab50-4e01-bb69-a65441aed8fd" />
+
 
 ---
 
@@ -69,7 +71,7 @@ The warehouse uses a **star schema** in the `analytics` schema:
 - `dim_product`
 - `dim_region`
 
-![Warehouse](images/01-warehouse.jpg)
+<img width="1366" height="625" alt="image" src="https://github.com/user-attachments/assets/b0746b40-88e1-436c-b05b-44cf8712199e" />
 
 ### Raw data columns (Bronze)
 
@@ -77,7 +79,8 @@ The warehouse uses a **star schema** in the `analytics` schema:
 
 The `Status` column includes values such as Active, Returned and Cancelled.
 
-![Lakehouse](images/02-lakehouse.jpg)
+<img width="1365" height="609" alt="image" src="https://github.com/user-attachments/assets/b81f684c-a10f-46b7-9ad8-afc2cd2946f5" />
+
 
 ---
 
